@@ -1,0 +1,39 @@
+_repo: Eight-Lectures-on-Theoretical-PhysicsDelivered-at-Columbia-University-in-1909_39017
+_version: 0.1.0
+alternative_title: 8 Lectures on Theoretical Physics, Delivered at Columbia University
+  in 1909
+contributor:
+  translator:
+    agent_name: Wills, A. P.
+    alias: Wills, Albert Potter
+    birthdate: 1873
+    gutenberg_agent_id: '39794'
+    url: http://www.gutenberg.org/2009/agents/39794
+covers:
+- cover_type: generated
+  image_path: cover.png
+creator:
+  author:
+    agent_name: Planck, Max
+    alias: Planck, Max Karl Ernst Ludwig
+    birthdate: 1858
+    deathdate: 1947
+    gutenberg_agent_id: '35343'
+    url: http://www.gutenberg.org/2009/agents/35343
+description: ''
+gutenberg_bookshelf: Physics
+gutenberg_issued: '2012-02-29'
+gutenberg_type: Text
+identifiers:
+  gutenberg: '39017'
+  lccn: '16002197'
+language: en
+publisher: Project Gutenberg
+rights: Public domain in the USA.
+rights_url: http://creativecommons.org/about/pdm
+subjects:
+- !lcc 'QC'
+- !lcsh 'Physics'
+title: Eight Lectures on Theoretical Physics, Delivered at Columbia University in
+  1909
+url: http://www.gutenberg.org/ebooks/39017
