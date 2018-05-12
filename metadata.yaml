@@ -21,6 +21,8 @@ creator:
     gutenberg_agent_id: '35343'
     url: http://www.gutenberg.org/2009/agents/35343
 description: ''
+edition_identifiers:
+  edition_id: http://www.gutenberg.org/ebooks/39017#Eight-Lectures-on-Theoretical-PhysicsDelivered-at-Columbia-University-in-1909
 gutenberg_bookshelf: Physics
 gutenberg_issued: '2012-02-29'
 gutenberg_type: Text
