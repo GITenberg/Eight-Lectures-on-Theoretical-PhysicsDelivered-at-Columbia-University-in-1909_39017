@@ -1,110 +1,147 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF xml:base="http://www.gutenberg.org/"
+  xmlns:marcrel="http://id.loc.gov/vocabulary/relators/"
   xmlns:pgterms="http://www.gutenberg.org/2009/pgterms/"
-  xmlns:cc="http://web.resource.org/cc/"
   xmlns:dcam="http://purl.org/dc/dcam/"
   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-  xmlns:marcrel="http://id.loc.gov/vocabulary/relators/"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:cc="http://web.resource.org/cc/"
   xmlns:dcterms="http://purl.org/dc/terms/"
 >
   <pgterms:ebook rdf:about="ebooks/39017">
+    <pgterms:downloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">156</pgterms:downloads>
+    <dcterms:title>Eight Lectures on Theoretical Physics, Delivered at Columbia University in 1909</dcterms:title>
+    <dcterms:subject>
+      <rdf:Description rdf:nodeID="Nbf07156822d24530ab468e827d242348">
+        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCSH"/>
+        <rdf:value>Physics</rdf:value>
+      </rdf:Description>
+    </dcterms:subject>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/39017/39017-t.zip">
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-02-29T11:18:48</dcterms:modified>
+        <dcterms:isFormatOf rdf:resource="ebooks/39017"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">523722</dcterms:extent>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N34f7cf5f7d72459abee93a0991f6ca81">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/prs.tex</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="Nc18b5debe83246d980d0f7193b109da5">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/zip</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2012-02-29</dcterms:issued>
+    <dcterms:subject>
+      <rdf:Description rdf:nodeID="N7f97d4da40e94f648312ff6fdbcd013e">
+        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCC"/>
+        <rdf:value>QC</rdf:value>
+      </rdf:Description>
+    </dcterms:subject>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/39017/39017-pdf.zip">
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N2920ec0dcdd645489b13d12a4ca3adb3">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/zip</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:isFormatOf rdf:resource="ebooks/39017"/>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="Na25a8c6bef8b4ebfad97d01f28c9c1b7">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/pdf</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1004612</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-02-29T11:18:48</dcterms:modified>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:alternative>8 Lectures on Theoretical Physics, Delivered at Columbia University in 1909</dcterms:alternative>
+    <pgterms:marc010>16002197</pgterms:marc010>
+    <dcterms:type>
+      <rdf:Description rdf:nodeID="N30de5b1d5d20432985a95a9d0156998d">
+        <rdf:value>Text</rdf:value>
+        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/DCMIType"/>
+      </rdf:Description>
+    </dcterms:type>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/39017/39017-t/39017-t.tex">
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-02-29T11:18:48</dcterms:modified>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">309525</dcterms:extent>
+        <dcterms:isFormatOf rdf:resource="ebooks/39017"/>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N5fde60699eef4cd3bc816035220e9165">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/prs.tex</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:publisher>Project Gutenberg</dcterms:publisher>
+    <marcrel:trl>
+      <pgterms:agent rdf:about="2009/agents/39794">
+        <pgterms:name>Wills, A. P.</pgterms:name>
+        <pgterms:alias>Wills, Albert Potter</pgterms:alias>
+        <pgterms:birthdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1873</pgterms:birthdate>
+      </pgterms:agent>
+    </marcrel:trl>
+    <dcterms:rights>Public domain in the USA.</dcterms:rights>
     <dcterms:language>
-      <rdf:Description rdf:nodeID="N0496216015994355a129b38827f3fee8">
+      <rdf:Description rdf:nodeID="N86a145fe4e4f46158c27f27506d67200">
         <rdf:value rdf:datatype="http://purl.org/dc/terms/RFC4646">en</rdf:value>
       </rdf:Description>
     </dcterms:language>
     <dcterms:hasFormat>
       <pgterms:file rdf:about="http://www.gutenberg.org/files/39017/39017-pdf.pdf">
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1071568</dcterms:extent>
-        <dcterms:isFormatOf rdf:resource="ebooks/39017"/>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="Nf154caa1ed8043bd927aa48261e0fed4">
+          <rdf:Description rdf:nodeID="N2125d40c7d3743fcafb71ecfe70bbdd4">
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/pdf</rdf:value>
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
           </rdf:Description>
         </dcterms:format>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1071568</dcterms:extent>
+        <dcterms:isFormatOf rdf:resource="ebooks/39017"/>
         <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-02-29T11:18:48</dcterms:modified>
       </pgterms:file>
     </dcterms:hasFormat>
-    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2012-02-29</dcterms:issued>
-    <dcterms:rights>Public domain in the USA.</dcterms:rights>
-    <pgterms:downloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">334</pgterms:downloads>
+    <dcterms:license rdf:resource="license"/>
     <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/files/39017/39017-t/39017-t.tex">
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-02-29T11:18:48</dcterms:modified>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">309525</dcterms:extent>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/39017.rdf">
+        <dcterms:isFormatOf rdf:resource="ebooks/39017"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7962</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-19T03:36:03.166081</dcterms:modified>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N41cb057bb78346d591bafdf83d60970d">
+          <rdf:Description rdf:nodeID="Nfec9f052f4824244bf8f5be089718a6c">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/prs.tex</rdf:value>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/rdf+xml</rdf:value>
           </rdf:Description>
         </dcterms:format>
-        <dcterms:isFormatOf rdf:resource="ebooks/39017"/>
       </pgterms:file>
     </dcterms:hasFormat>
-    <dcterms:publisher>Project Gutenberg</dcterms:publisher>
     <dcterms:creator>
       <pgterms:agent rdf:about="2009/agents/35343">
         <pgterms:name>Planck, Max</pgterms:name>
-        <pgterms:deathdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1947</pgterms:deathdate>
         <pgterms:alias>Planck, Max Karl Ernst Ludwig</pgterms:alias>
         <pgterms:birthdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1858</pgterms:birthdate>
+        <pgterms:deathdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1947</pgterms:deathdate>
       </pgterms:agent>
     </dcterms:creator>
-    <marcrel:trl>
-      <pgterms:agent rdf:about="2009/agents/39794">
-        <pgterms:name>Wills, A. P.</pgterms:name>
-      </pgterms:agent>
-    </marcrel:trl>
-    <dcterms:title>Eight Lectures on Theoretical Physics
-Delivered at Columbia University in 1909</dcterms:title>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/files/39017/39017-pdf.zip">
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1004612</dcterms:extent>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="N957897bb3c334142b5cca39339b32ca8">
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/zip</rdf:value>
-          </rdf:Description>
-        </dcterms:format>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="N9c4d197744504893ba4411cb800cf955">
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/pdf</rdf:value>
-          </rdf:Description>
-        </dcterms:format>
-        <dcterms:isFormatOf rdf:resource="ebooks/39017"/>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-02-29T11:18:48</dcterms:modified>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/files/39017/39017-t.zip">
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="N4beb1767fcb64e7fb353736a9c497abc">
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/prs.tex</rdf:value>
-          </rdf:Description>
-        </dcterms:format>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">523722</dcterms:extent>
-        <dcterms:isFormatOf rdf:resource="ebooks/39017"/>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="N7a955a7dd0064064bcbae3d6c82211ba">
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/zip</rdf:value>
-          </rdf:Description>
-        </dcterms:format>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-02-29T11:18:48</dcterms:modified>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:type>
-      <rdf:Description rdf:nodeID="Nb229142ee2324f2493f39f22f4a2ae54">
-        <rdf:value>Text</rdf:value>
-        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/DCMIType"/>
+    <pgterms:bookshelf>
+      <rdf:Description rdf:nodeID="N7ff6d87196d6419481a614442f8675f7">
+        <rdf:value>Physics</rdf:value>
+        <dcam:memberOf rdf:resource="2009/pgterms/Bookshelf"/>
       </rdf:Description>
-    </dcterms:type>
-    <dcterms:license rdf:resource="license"/>
+    </pgterms:bookshelf>
   </pgterms:ebook>
   <cc:Work rdf:about="">
-    <cc:license rdf:resource="http://www.gnu.org/licenses/gpl.html"/>
+    <rdfs:comment>Archives containing the RDF files for *all* our books can be downloaded at
+            http://www.gutenberg.org/wiki/Gutenberg:Feeds#The_Complete_Project_Gutenberg_Catalog</rdfs:comment>
+    <cc:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/"/>
   </cc:Work>
 </rdf:RDF>
